@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>View User</title>
+<link rel="stylesheet" href="viewuser.css">
+
+
+</head>
+<body>
+<h3>MovieFlix</h3>
+<h2>All Users</h2>
+<table border="1">
+	<thead>
+		<tr>
+			<td>User Name</td>
+			<td>User Email</td>
+			<td>User PhoneNo</td>
+			<td>User Gender</td>
+			<td>User Address</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr th:each="user : ${user}">
+			<td th:text="${user.name}"></td>
+			<td th:text="${user.email}"></td>
+			<td th:text="${user.PhoneNo}"></td>
+			<td th:text="${user.gender}"></td>
+			<td th:text="${user.address}"></td>
+	
+		</tr>
+	</tbody>
+			
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+<style>
+ body {
+ background-color: #141414; 
+    color: #ffffff; /* White text for readability */
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    
+
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+h2 {
+    color: #e50914; 
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-decoration-line:underline;
+    text-decoration-color:rgba(245, 245, 245, 0.548);
+  
+}
+h3 {
+	font-size: 25px;
+ 	-webkit-background-clip: text;
+    /* To make the image transparent */
+    -webkit-text-fill-color: transparent;
+    background-color:#e50914;;
+    background-size: contain;
+    /* to dispaly the image in the text */
+    -webkit-background-clip: text;
+    /* to make the image transparent */
+    -webkit-text-fill-color: transparent;
+
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     font-size: 24px;
+     margin-top: -20px;
+  }
+
+form {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    background-color: #e50914; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width:120px;
+    margin-left:20px;
+    margin-top:40px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(245, 245, 245, 0.351);
+    
+}
+
+</style>
+
+</head>
+<body>
+<h3>MovieFlix</h3>
+	<h2>Registration is  Failed. Please Try again..</h2>
+	
+	<a href="map-register">
+	<input type="submit" value="Sign Up">
+	</a>
+</body>
+</html>

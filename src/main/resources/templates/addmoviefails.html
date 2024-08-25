@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+body {
+    background-color: #141414; /* Dark background similar to Netflix */
+    color: #ffffff; /* White text for readability */
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    
+
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1 {
+    color: #e50914; 
+    margin-bottom: 20px;
+    margin-left:20px;
+  
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    background-color: #e50914; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width:120px;
+    margin-left:20px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(245, 245, 245, 0.351);
+  
+}
+
+</style>
+
+</head>
+<body>
+<h1>Adding movie failed. Please try again.. </h1>
+
+<form action="map-addmovie">
+	<input type="submit" value="Add Movie">
+	
+</body>
+</html>

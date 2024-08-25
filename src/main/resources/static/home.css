@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+body{
+	 margin: center;
+	font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20191116/pngtree-dark-blue-film-film-abstract-film-screening-image_322451.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    /* Ensure full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Overlay to darken the background */
+    background-color: rgba(0, 0, 0,);
+}
+h3{
+	color: #f00;
+	font-size: 25px;
+	position: absolute;
+     top: 20px;
+     left: 20px;
+     font-size: 24px;
+     margin-top: -10px;
+}
+h1 {
+	margin-top:80px;
+	font-weight: bold; /* Make the font weight bold */
+    font-size: 3rem; /* Increase font size */
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.8); 
+    margin-bottom: 6rem; /* Decrease bottom margin */
+    text-align: center;
+    color: #f00; /* Red color */
+    /* Display the image in the text */
+   
+    background-size: contain;
+    /* To display the image in the text */
+    -webkit-background-clip: text;
+    /* To make the image transparent */
+    -webkit-text-fill-color: transparent;
+    /* Display the image in the background */
+    background-color:#6e00f0;
+    background-size: contain;
+    /* to dispaly the image in the text */
+    -webkit-background-clip: text;
+    /* to make the image transparent */
+    -webkit-text-fill-color: transparent;
+}
+.p{
+	font-size: 23px;
+	backdrop-filter: blur(2px);
+    color: #f00;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.8); 
+	background-size: contain;
+    /* To display the image in the text */
+    -webkit-background-clip: text;
+    /* To make the image transparent */
+    -webkit-text-fill-color: transparent;
+    /* Display the image in the background */
+    background-color:white;
+    background-size: contain;
+    /* to dispaly the image in the text */
+    -webkit-background-clip: text;
+    /* to make the image transparent */
+    -webkit-text-fill-color: transparent;
+	margin-top:-40px;
+}
+
+ input[type="submit"] {
+		
+ 		gap:5px;
+ 		margin-top:40px;
+       backdrop-filter: blur(2px);
+        background-color: #e50914;
+        color: #ffffff;
+        border: none;
+        padding: 5px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        font-family: 'Times New Roman', Times, serif;
+        width:150px;
+    }
+
+    input[type="submit"]:hover {
+        
+        background-color: rgba(245, 245, 245, 0.351);
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+    }
+
+    br {
+        display: none;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 600px) {
+        input[type="submit"] {
+            width: 100%;
+            box-sizing: border-box;
+    }
+   }
+.floating-sentence {
+            position: absolute;
+            top: 0;
+            white-space: nowrap;
+            font-size: 1.5rem;
+            color: white;
+            animation: float-left 30s linear infinite;
+            
+        }
+
+ @keyframes float-left {
+       from {
+            left: 100%;
+        }
+       to {
+           left: -100%;
+        }
+   }

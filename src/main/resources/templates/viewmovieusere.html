@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Movieflix- Explore Movies</title>
+ <link rel="stylesheet" href="viewmovieuser.css">
+
+</head>
+
+<body>
+<h4>MovieFlix</h4>
+<h2>All Movies</h2>
+	<div class="movie-grid">
+	
+		<div th:each="movie : ${movie}" class="movie-item" 	>
+	
+		<h3 th:text="${movie.movieName}">Movie Name</h3>
+			
+		<div th:utext="${movie.movieLink}"></div>
+	</div>	
+	</div>		
+	
+
+</body>
+</html>

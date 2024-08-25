@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+body {
+    background-color: #141414; 
+    color: #ffffff; 
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+h3{
+	text-align: center;
+    color: #e50914;
+	font-size: 25px;
+ 	position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    margin-top: -20px;
+}
+
+h2 {
+	
+    text-align: center;
+    color: #e50914;
+    margin-bottom: 30px;
+    font-size:30px;
+    text-decoration-line:underline;
+    text-decoration-color:rgba(245, 245, 245, 0.548);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+thead {
+    background-color: #333333; 
+    color:rgba(252, 21, 71, 0.883);
+}
+
+thead tr {
+    border-bottom: 2px solid #444444; 
+}
+
+thead th {
+    padding: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    background-color: #1c1c1c; /* Slightly lighter dark background for rows */
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2c2c2c; /* Alternating row color */
+}
+
+tbody tr:hover {
+    background-color: #333333; /* Highlight row on hover */
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #444444; /* Slightly lighter border */
+    text-align: center;
+}
+
+tbody td a {
+    color: #e50914; 
+    text-decoration: none;
+}
+
+tbody td a:hover {
+    text-decoration: underline;
+    background-color:rgba(245, 245, 245, 0.351);
+}

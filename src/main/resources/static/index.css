@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+body {
+    margin: center;
+   
+    margin-top: 40px;
+    background-image: url('https://cdn.arstechnica.net/wp-content/uploads/2022/07/netflix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* Ensure full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Overlay to darken the background */
+    background-color: rgba(0, 0, 0, 0.5); /* More transparent black overlay */
+    
+}
+
+h1 {
+  	font-weight: bold; /* Make the font weight bold */
+    font-size: 5rem; /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8); /* Add a more pronounced text shadow */
+    margin-bottom: 6rem; /* Decrease bottom margin */
+    text-align: center;
+    color: #f00; /* Red color */
+    /* Display the image in the text */
+   
+    background-size: contain;
+    /* To display the image in the text */
+    -webkit-background-clip: text;
+    /* To make the image transparent */
+    -webkit-text-fill-color: transparent;
+    /* Display the image in the background */
+    background-color:#6e00f0;
+    background-size: contain;
+    /* to dispaly the image in the text */
+    -webkit-background-clip: text;
+    /* to make the image transparent */
+    -webkit-text-fill-color: transparent;
+    
+}
+.movie{
+	color: #f00;
+ 	font-size: 25px;
+	position: absolute;
+     top: 20px;
+     left: 20px;
+     font-size: 24px;
+     margin-top: -10px;
+ 	
+}
+h2,h5,h6{
+	color:white;
+	font-weight: bold;
+}
+h5,h6{
+	margin-top: -10px;
+}
+
+
+
+#register {
+            background: #ffffff4d;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 40px;
+            border: none;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            text-align: center;
+            width: 10em;
+            margin-top: 1em; /* Adjust this value to move the button down */
+           animation:bounce 0.5s ;
+        }
+
+       
+        
+#register:hover {
+            background-color: #e50914;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+        }
+
+
+#login {
+        background: #ffffff4d;
+        border-radius: 40px;
+        border: none;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        text-align: center;
+       padding: 5px 10px;
+        position: absolute;
+        top: 80px;
+        right: 10px;
+   }
+        
+ #login:hover {
+            background-color: #e50914;
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+     }
+ .floating-sentence {
+            position: absolute;
+            top: 0;
+            white-space: nowrap;
+            font-size: 1.5rem;
+            color: white;
+            animation: float-left 30s linear infinite;
+            
+        }
+
+ @keyframes float-left {
+       from {
+            left: 100%;
+        }
+       to {
+           left: -100%;
+        }
+   }
+
+
+
+

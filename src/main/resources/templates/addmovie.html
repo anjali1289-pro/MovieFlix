@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Movieflix- Add Movies</title>
+ <link rel="stylesheet" href="addmovie.css">
+
+</head>
+<body>
+	<h3>MovieFlix</h3>
+	<form action="addmovie" method="post">
+	
+	<h1>Add Movie Details: </h1>
+	<lable>Movie Name: <lable>
+	<input type="text" name="movieName" placeholder="Enter the movie name">
+	<br><br>
+	<lable>Movie Link</lable>
+	<input type="text" placeholder="Insert a movie Link" name="movieLink">
+	<br><br>
+	<lable>Movie Genre</lable>
+	<select name="movieGenre">
+        <option ></option>
+        <option>Action</option>
+        <option>Romantic</option>
+    	<option>SciFi</option>
+        <option>Horror</option>
+        <option>Comedy</option>
+        <option>KDrama</option>
+        <option>BTS</option>
+    </select>
+    <br><br>
+    <lable>Movie Cast</lable>
+    <input type="text" placeholder="Enter the cast" name="movieCast">
+    <br><br>
+    <lable>Movie Director</lable>
+    <input type="text" placeholder="Enter the Director name" name="movieDirector">
+    <br><br>
+    <input type="submit" value="Add Movie">
+	
+	</form>
+</body>
+</html>

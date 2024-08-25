@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Explore Movie</title>
+ <link rel="stylesheet" href="viewmovie.css">
+
+</head>
+<body>
+<h3>MovieFlix</h3>
+	<h2>All Movies</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<td>Movie No.</td>
+				<td>Movie Name</td>
+				<td>Movie Link</td>
+				<td>Movie Genre</td>
+				<td>Movie Cast</td>
+				<td>Movie Director</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="movie : ${movie}">
+				<td th:text="${movie.id}"></td>
+				<td th:text="${movie.movieName}"></td>
+				<td th:utext="${movie.movieLink}"></td>
+				<td th:text="${movie.movieGenre}"></td>
+				<td th:text="${movie.movieCast}"></td>
+				<td th:text="${movie.movieDirector}"></td>
+			</tr>		
+		</tbody>
+	</table>
+
+</body>
+</html>
